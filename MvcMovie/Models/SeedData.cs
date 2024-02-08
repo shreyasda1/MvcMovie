@@ -22,33 +22,46 @@ public static class SeedData
             context.Movie.AddRange(
                 new Movie
                 {
-                    Title = "When Harry Met Sally",
-                    ReleaseDate = DateTime.Parse("1989-2-12"),
-                    Genre = "Romantic Comedy",
-                    Rating = "R",
-                    Price = 7.99M
-                },
-                new Movie
-                {
-                    Title = "Ghostbusters ",
-                    ReleaseDate = DateTime.Parse("1984-3-13"),
+                    Title = "golmal",
+                    ReleaseDate = DateTime.Parse("2001-22-12"),
                     Genre = "Comedy",
-                    Price = 8.99M
+                    Rating = "RAT 1",
+                    Price = 3.99M
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters 2",
-                    ReleaseDate = DateTime.Parse("1986-2-23"),
+                    Title = "baghbaan",
+                    ReleaseDate = DateTime.Parse("2001-22-12"),
                     Genre = "Comedy",
-                    Price = 9.99M
+                    Rating = "RAT 2",
+                    Price = 3.99M
                 },
                 new Movie
                 {
-                    Title = "Rio Bravo",
-                    ReleaseDate = DateTime.Parse("1959-4-15"),
-                    Genre = "Western",
+                    Title = "singham",
+                    ReleaseDate = DateTime.Parse("2001-22-12"),
+                    Genre = "Comedy",
+                    Rating = "RAT 3",
+                    Price = 3.99M
+                },
+             
+                new Movie
+                {
+                    Title = "baby",
+                    ReleaseDate = DateTime.Parse("2001-22-12"),
+                    Genre = "Action",
+                    Rating = "RAT 4",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "KGF",
+                    ReleaseDate = DateTime.Parse("2001-22-12"),
+                    Genre = "Action",
+                    Rating = "RAT 5",
                     Price = 3.99M
                 }
+
             );
             context.SaveChanges();
         }
